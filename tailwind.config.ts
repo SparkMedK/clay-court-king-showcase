@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Roland Garros Colors
+				clay: {
+					DEFAULT: '#D94F2B', // Clay Court Orange
+					dark: '#C33A17'
+				},
+				paris: {
+					DEFAULT: '#2E5C3F', // Parisian Green
+					dark: '#234A32'
+				},
+				cream: '#F5E8D3', // Cream White
+				navy: '#1A2E44', // Deep Navy
+				gold: '#D4A017', // Gold Accent
+			},
+			fontFamily: {
+				montserrat: ['Montserrat', 'sans-serif'],
+				opensans: ['Open Sans', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +101,30 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'count-up': {
+					'0%': {
+						'content': '"0"'
+					},
+					'100%': {
+						'content': 'attr(data-value)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards',
 			}
 		}
 	},
