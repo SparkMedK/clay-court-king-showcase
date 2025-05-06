@@ -1,8 +1,8 @@
-
 import { Facebook, Instagram, Twitter, Linkedin, Trophy } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
-import StatCard from "@/components/StatCard";
+import StatsDisplay from "@/components/StatsDisplay";
+import AchievementsDisplay from "@/components/AchievementsDisplay";
 
 const Index = () => {
   return (
@@ -84,65 +84,11 @@ const Index = () => {
 
       {/* Achievements Section */}
       <Section id="achievements" title="Career Achievements" className="bg-navy text-cream" titleClassName="text-cream">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-          <StatCard value={22} title="Grand Slam Titles" />
-          <StatCard value={14} title="French Open Titles" description="Record for any player at a single major" />
-          <StatCard value={96} title="Win Rate %" description="112-4 record at Roland Garros" />
-          <StatCard value={81} title="Consecutive Clay Wins" description="Open Era record (2005-2007)" />
-        </div>
+        <StatsDisplay />
 
         <div className="bg-paris/80 rounded-lg p-6 md:p-8 backdrop-blur-sm">
           <h3 className="text-2xl font-montserrat font-bold mb-6 text-gold">Grand Slam Timeline</h3>
-          
-          <div className="space-y-8">
-            <div className="flex flex-col md:flex-row gap-4 items-start">
-              <div className="bg-clay rounded-full p-3 flex items-center justify-center flex-shrink-0">
-                <Trophy className="w-6 h-6 text-cream" />
-              </div>
-              <div>
-                <h4 className="text-lg font-montserrat font-bold text-gold">First French Open Title (2005)</h4>
-                <p className="text-cream opacity-90">
-                  At just 19 years old, Nadal defeated Mariano Puerta in the final to win his first Roland Garros title on his very first attempt, beginning his clay court dynasty.
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-4 items-start">
-              <div className="bg-clay rounded-full p-3 flex items-center justify-center flex-shrink-0">
-                <Trophy className="w-6 h-6 text-cream" />
-              </div>
-              <div>
-                <h4 className="text-lg font-montserrat font-bold text-gold">Five Consecutive Titles (2010)</h4>
-                <p className="text-cream opacity-90">
-                  Nadal won his fifth consecutive French Open title (2005-2008, 2010), matching Björn Borg's record of five consecutive French Open wins.
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-4 items-start">
-              <div className="bg-clay rounded-full p-3 flex items-center justify-center flex-shrink-0">
-                <Trophy className="w-6 h-6 text-cream" />
-              </div>
-              <div>
-                <h4 className="text-lg font-montserrat font-bold text-gold">La Décima (2017)</h4>
-                <p className="text-cream opacity-90">
-                  Nadal became the first player in the Open Era to win 10 titles at a single Grand Slam tournament, defeating Stan Wawrinka in the final without dropping a set.
-                </p>
-              </div>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-4 items-start">
-              <div className="bg-clay rounded-full p-3 flex items-center justify-center flex-shrink-0">
-                <Trophy className="w-6 h-6 text-cream" />
-              </div>
-              <div>
-                <h4 className="text-lg font-montserrat font-bold text-gold">14th Title (2022)</h4>
-                <p className="text-cream opacity-90">
-                  At age 36, Nadal won his 14th French Open title and 22nd Grand Slam overall, defeating Casper Ruud in straight sets despite struggling with a chronic foot injury.
-                </p>
-              </div>
-            </div>
-          </div>
+          <AchievementsDisplay />
         </div>
       </Section>
 
