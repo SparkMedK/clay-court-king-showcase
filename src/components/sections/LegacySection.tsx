@@ -24,7 +24,7 @@ const LegacySection = () => {
         <div className="order-1 md:order-2 flex justify-center">
           <div className="relative max-w-sm overflow-hidden rounded-lg shadow-xl">
             <img 
-              src="https://images.unsplash.com/photo-1687125106218-3c7a1754bbfc?q=80&w=1974&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1622279457486-28f746125e28?q=80&w=2070&auto=format" 
               alt="Rafael Nadal at Roland Garros" 
               className="w-full h-auto"
             />
