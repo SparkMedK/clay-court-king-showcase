@@ -34,7 +34,7 @@ const PhilanthropySection = () => {
           <div className="flex justify-center">
             <div className="max-w-sm rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?q=80&w=2072&auto=format" 
+                src="https://images.unsplash.com/photo-1597344239190-0d49193c2fae?q=80&w=2073&auto=format&fit=crop" 
                 alt="Rafael Nadal Foundation" 
                 className="w-full h-auto"
               />

@@ -20,7 +20,7 @@ const AboutSection = () => {
         <div className="flex justify-center">
           <div className="relative overflow-hidden rounded-lg shadow-xl max-w-sm">
             <img 
-              src="https://images.unsplash.com/photo-1622279457486-28f746125e28?q=80&w=2070&auto=format" 
+              src="https://images.unsplash.com/photo-1627724475928-8c3809f9595f?q=80&w=1974&auto=format&fit=crop" 
               alt="Rafael Nadal" 
               className="w-full h-auto object-cover"
             />
