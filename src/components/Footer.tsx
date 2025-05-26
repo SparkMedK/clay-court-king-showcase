@@ -51,18 +51,6 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        
-        <div className="mt-6 text-center text-xs text-cream/60">
-          <a 
-            href="https://www.rafanadalfoundation.org/en/" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="hover:text-clay transition-colors duration-200"
-          >
-            Fundación Rafa Nadal
-          </a>
-        </div>
-      </div>
     </footer>
   );
 };
