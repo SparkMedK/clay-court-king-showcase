@@ -14,14 +14,14 @@ const AboutSection = () => {
             As part of tennis's "Big Three" alongside Roger Federer and Novak Djokovic, Nadal has helped elevate the sport to unprecedented heights. His tenacity and sportsmanship have earned him respect from fans and competitors alike.
           </p>
           <p className="text-navy leading-relaxed">
-            Off the court, Nadal founded the Fundación Rafa Nadal in 2007 to support disadvantaged youth through sports and education programs, showing his commitment to giving back to society.
+            With 22 Grand Slam titles and an unparalleled dominance at Roland Garros, Nadal's legacy extends beyond tennis through his foundation work and dedication to giving back to society.
           </p>
         </div>
         <div className="flex justify-center">
           <div className="relative overflow-hidden rounded-lg shadow-xl max-w-sm">
             <img 
-              src="https://images.unsplash.com/photo-1622279457486-28f746125e28?q=80&w=2070&auto=format" 
-              alt="Rafael Nadal" 
+              src="/lovable-uploads/46b1b9ba-fc4c-481a-82d0-de171a1cadf7.png" 
+              alt="Rafael Nadal Roland Garros 14 titles tribute" 
               className="w-full h-auto object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/70 to-transparent flex items-end p-4">
