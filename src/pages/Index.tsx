@@ -4,8 +4,7 @@ import Navbar from "@/components/Navbar";
 import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
 import AchievementsSection from '@/components/sections/AchievementsSection';
-import LegacySection from '@/components/sections/LegacySection';
-import PhilanthropySection from '@/components/sections/PhilanthropySection';
+import SportifioSection from '@/components/sections/SportifioSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -15,8 +14,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <AchievementsSection />
-      <LegacySection />
-      <PhilanthropySection />
+      <SportifioSection />
       <Footer />
     </div>
   );

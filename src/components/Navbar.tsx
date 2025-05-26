@@ -45,8 +45,7 @@ const Navbar = () => {
           <NavLink to="/" className="nav-link">Home</NavLink>
           <a href="/#about" className="nav-link">About</a>
           <a href="/#achievements" className="nav-link">Achievements</a>
-          <a href="/#legacy" className="nav-link">Legacy</a>
-          <a href="/#philanthropy" className="nav-link">Foundation</a>
+          <a href="/#sportifio" className="nav-link">Sportifio</a>
           <NavLink to="/chat" className="nav-link text-clay font-bold">
             Chat with AI
           </NavLink>
@@ -75,11 +74,8 @@ const Navbar = () => {
             <a href="/#achievements" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
               Achievements
             </a>
-            <a href="/#legacy" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
-              Legacy
-            </a>
-            <a href="/#philanthropy" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
-              Foundation
+            <a href="/#sportifio" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
+              Sportifio
             </a>
             <NavLink to="/chat" className="mobile-nav-link text-clay font-bold" onClick={() => setIsOpen(false)}>
               Chat with AI
