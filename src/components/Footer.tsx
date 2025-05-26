@@ -11,9 +11,17 @@ const Footer = () => {
             <p className="font-montserrat font-bold text-xl">
               <span className="text-clay">R</span>afael <span className="text-clay">N</span>adal
             </p>
-            <p className="text-sm text-cream/70 mt-1">
-              © {new Date().getFullYear()} | All rights reserved
-            </p>
+            <div className="text-sm text-cream/70 mt-1">
+              <p>
+                © 2025 Sportifio. All rights reserved.
+                <br />
+                Sportifio is an athlete portfolio platform currently in development.
+                <br />
+                The profile of Rafael Nadal shown here is for demonstration purposes only and uses publicly available information.
+                <br />
+                Sportifio is <strong>not affiliated with or endorsed by Rafael Nadal</strong> or his official team.
+              </p>
+            </div>
           </div>
           
           <div className="flex space-x-6">
