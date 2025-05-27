@@ -23,37 +23,14 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-6">
+
             <a 
-              href="https://www.facebook.com/Nadal" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-cream hover:text-clay transition-colors duration-200"
-            >
-              <Facebook className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://www.instagram.com/rafaelnadal" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-cream hover:text-clay transition-colors duration-200"
-            >
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://twitter.com/RafaelNadal" 
+              href="https://x.com/sportifio" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-cream hover:text-clay transition-colors duration-200"
             >
               <Twitter className="w-5 h-5" />
-            </a>
-            <a 
-              href="https://www.linkedin.com/company/rafa-nadal-academy" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-cream hover:text-clay transition-colors duration-200"
-            >
-              <Linkedin className="w-5 h-5" />
             </a>
           </div>
         </div>
