@@ -35,7 +35,7 @@ const SportifioSection = () => {
               <h4 className="text-xl font-montserrat font-bold text-gold mb-2">Sportifio</h4>
               <div className="bg-gold/20 rounded-lg p-4">
                 <p className="text-cream text-sm italic">
-                  "Celebrating athletic excellence through exceptional digital design"
+                  ""Celebrating your athletic journey in one link.""
                 </p>
               </div>
             </div>
