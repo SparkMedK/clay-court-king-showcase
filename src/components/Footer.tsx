@@ -15,10 +15,6 @@ const Footer = () => {
               <p>
                 © 2025 Sportifio. All rights reserved.
                 <br />
-                Sportifio is an athlete portfolio platform currently in development.
-                <br />
-                The profile of Rafael Nadal shown here is for demonstration purposes only and uses publicly available information.
-                <br />
                 Sportifio is <strong>not affiliated with or endorsed by Rafael Nadal</strong> or his official team.
               </p>
             </div>
