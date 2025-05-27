@@ -9,11 +9,13 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="font-montserrat font-bold text-xl">
-              <span className="text-clay">R</span>afael <span className="text-clay">N</span>adal
+              <span className="text-clay">S</span>portifio
             </p>
             <div className="text-sm text-cream/70 mt-1">
               <p>
                 © 2025 Sportifio. All rights reserved.
+                <br />
+                Sportifio is an athlete portfolio platform currently in development.
                 <br />
                 The profile of Rafael Nadal shown here is for demonstration purposes only and uses publicly available information.
                 <br />
@@ -23,7 +25,6 @@ const Footer = () => {
           </div>
           
           <div className="flex space-x-6">
-
             <a 
               href="https://x.com/sportifio" 
               target="_blank" 
