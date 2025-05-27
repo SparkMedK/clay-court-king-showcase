@@ -1,22 +1,21 @@
-# Welcome to your Lovable project
+
+# Rafael Nadal - King of Clay Portfolio
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/3fd9684e-e589-485b-aa08-e9689ee80fad
+A tribute portfolio showcasing Rafael Nadal's legendary tennis career, created by Sportifio.
+
+## About Sportifio
+
+Sportifio is an athlete portfolio platform currently in development, dedicated to creating engaging digital experiences that honor sporting excellence.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/3fd9684e-e589-485b-aa08-e9689ee80fad) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -62,12 +61,10 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/3fd9684e-e589-485b-aa08-e9689ee80fad) and click on Share -> Publish.
+You can deploy this project using various hosting platforms like Vercel, Netlify, or GitHub Pages.
 
-## Can I connect a custom domain to my Lovable project?
+## Created by Sportifio
 
-Yes, you can!
+This portfolio was created by Sportifio to demonstrate our commitment to creating engaging digital experiences for athletes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Contact us: sportifio.team@gmail.com
