@@ -12,11 +12,8 @@ const SportifioSection = () => {
             <Code className="w-8 h-8 text-gold mr-3" />
             <h3 className="text-2xl font-montserrat font-bold text-gold">Portfolio Development</h3>
           </div>
-          <p className="mb-4 leading-relaxed">
-            This Rafael Nadal tribute portfolio was crafted by Sportifio, showcasing the legendary career of the King of Clay through modern web design and interactive features.
-          </p>
           <p className="mb-6 leading-relaxed">
-            Built with cutting-edge technologies including React, TypeScript, and Tailwind CSS, this portfolio demonstrates our commitment to creating engaging digital experiences that honor sporting excellence.
+            This Rafael Nadal tribute portfolio was crafted by Sportifio, showcasing the legendary career of the King of Clay through modern web design and interactive features.
           </p>
           <div className="bg-navy/20 border-l-4 border-gold p-4 rounded">
             <div className="flex items-center mb-2">
@@ -36,7 +33,6 @@ const SportifioSection = () => {
             <div className="text-center">
               <Trophy className="w-16 h-16 text-gold mx-auto mb-4" />
               <h4 className="text-xl font-montserrat font-bold text-gold mb-2">Sportifio</h4>
-              <p className="text-cream text-sm mb-4">Digital Sports Portfolio Specialists</p>
               <div className="bg-gold/20 rounded-lg p-4">
                 <p className="text-cream text-sm italic">
                   "Celebrating athletic excellence through exceptional digital design"
