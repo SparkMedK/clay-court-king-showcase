@@ -52,7 +52,6 @@ const Navbar = () => {
             className="nav-link flex items-center space-x-2 hover:text-clay transition-colors duration-200"
             onClick={handleHomeAction}
           >
-            <Home size={16} />
             <span>Home</span>
           </NavLink>
           <a href="/#about" className="nav-link">About</a>
