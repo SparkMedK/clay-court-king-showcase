@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Home } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +19,11 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const handleHomeAction = () => {
+    // Scroll to top smoothly when home is clicked
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   return (
     <header 
@@ -42,7 +47,14 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6">
-          <NavLink to="/" className="nav-link">Home</NavLink>
+          <NavLink 
+            to="/" 
+            className="nav-link flex items-center space-x-2 hover:text-clay transition-colors duration-200"
+            onClick={handleHomeAction}
+          >
+            <Home size={16} />
+            <span>Home</span>
+          </NavLink>
           <a href="/#about" className="nav-link">About</a>
           <a href="/#achievements" className="nav-link">Achievements</a>
           <a href="/#sportifio" className="nav-link">Sportifio</a>
@@ -65,8 +77,16 @@ const Navbar = () => {
             <X size={24} />
           </button>
           <div className="flex flex-col items-center space-y-6">
-            <NavLink to="/" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
-              Home
+            <NavLink 
+              to="/" 
+              className="mobile-nav-link flex items-center space-x-3" 
+              onClick={() => {
+                setIsOpen(false);
+                handleHomeAction();
+              }}
+            >
+              <Home size={20} />
+              <span>Home</span>
             </NavLink>
             <a href="/#about" className="mobile-nav-link" onClick={() => setIsOpen(false)}>
               About
